@@ -1,0 +1,40 @@
+<html>
+
+<body bgcolor=#a3cfb4>
+
+    <center>
+
+        <h1>  PREDICTION :  </h1>
+
+
+		
+	{% if prediction == 0%}
+	<h1>HOME>CLOTHING>ACCESSORIES</h1>
+	<img src='clothing.jpg',alt="">
+
+	{% elif prediction == 1%}
+	<h1>HOME>ENTERTAINMENT</h1>
+	<img src='entertainment1.jpg'>
+
+	{% elif prediction == 2%}
+	<h1>HOME>FURNITURE</h1>
+	<img src='furniture.jpg'>
+
+	{% elif prediction == 3%}
+	<h1>HOME>LAPTOP</h1>
+	<img src='laptop.jpg'>
+
+	{% elif prediction == 4%}
+	<h1>HOME>MOBILES</h1>
+	<img src='mobiles.jpg'>
+
+	{% endif %}
+
+		<br><br>
+    	<a href='/'>go back to home page</a>
+
+    	</center>
+
+</body>
+
+</html>
