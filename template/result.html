@@ -1,0 +1,40 @@
+<html>
+
+<body bgcolor=#a3cfb4>
+
+    <center>
+
+        <h1>  PREDICTION :  </h1>
+
+
+		
+	{% if prediction == 0%}
+	<h1>HOME>CLOTHING>ACCESSORIES</h1>
+	<img src='https://wp-en.oberlo.com/wp-content/uploads/2018/04/shutterstock_466589549.jpg',alt="cloth">
+
+	{% elif prediction == 1%}
+	<h1>HOME>ENTERTAINMENT</h1>
+	<img src='https://www.manatt.com/Manatt/media/Media/Images/Jumbotron/TV_Screens.jpg?ext=.jpg'>
+
+	{% elif prediction == 2%}
+	<h1>HOME>FURNITURE</h1>
+	<img src='https://images.all-free-download.com/images/graphiclarge/a_variety_of_furniture_furniture_clip_art_154758.jpg'>
+
+	{% elif prediction == 3%}
+	<h1>HOME>LAPTOP</h1>
+	<img src='https://www.businessinsider.in/photo/75448528/xiaomi-redmibook-mi-laptops-expected-to-launch-soon-in-india.jpg?imgsize=72729'>
+
+	{% elif prediction == 4%}
+	<h1>HOME>MOBILES</h1>
+	<img src='https://www.gizbot.com/img/2017/11/flipkartsamsungmobilesfestdeals-06-1509969605.jpg'>
+
+	{% endif %}
+
+		<br><br>
+    	<a href='/'>go back to home page</a>
+
+    	</center>
+
+</body>
+
+</html>
